@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars. Provide the admin password via env instead of committing:
+#   export TF_VAR_admin_password='YourStr0ng!Passw0rd'
+
+location       = "eastus"
+project_name   = "ahmad-vmss"
+instance_count = 2
+admin_username = "azureadmin"
+# admin_password = "set-via-TF_VAR_admin_password"
